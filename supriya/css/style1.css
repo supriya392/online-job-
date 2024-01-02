@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    width:1300;
+    height:600;
+    background-color: rgb(187, 189, 192);
+    display: flex;
+}
+.controldiv1{
+    width: 1600px;
+    height: 400px;
+    background-color: rgb(100, 104, 104);
+
+    
+}
+.imgdiv img{
+    width: 600px;
+    height: 400;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.formdiv{
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 600px;
+}
+.controldiv2{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+
+
+}
+.controldiv1 input{
+    margin: 10px 0;
+    width:250px;
+    height: 21px;
+
+}
+.controldiv1 textarea{
+    margin:10px 0;
+    width: 200px;
+    height: 100px;
+}
+.controldiv2 button{
+    background-color: rgb(31, 205, 43);
+    
+
+}
+.controldiv2 input{
+    margin:10px 0;
+
+}

@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    background: linear-gradient(90deg, rgba(157,207,202,1) 0%, rgba(232,180,230,1) 100%);
+    height:100vhr;
+}
+.container{
+    width:900px;
+    height:550px;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+}
+.imgdiv img{
+    width: 367px;
+}
+.contact-div{
+    width: 583px;
+    height: 550px;
+    background-color:white;
+    margin-left:20px;
+}
+.common-div{
+    display:flex;
+    justify-content:flex-end;
+}
+.control-div1{
+    width: 250px;
+    height: 220px;
+background-color:white;
+}
+.control-div2{
+    width: 250px;
+    height: 220px;
+    background-color:white;
+    display: flex;
+    flex-direction:column;
+}
+.control-div input{
+    margin: 10px 0;
+    width:236px;
+    height:21px;
+}
+.control-div2 textarea{
+    margin:10px 0;
+    width:240px;
+    height:150px;
+}
+.contact-div input{
+    margin:10px 0;
+}
