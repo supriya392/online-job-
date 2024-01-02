@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title>dynanic effects page</title>
+<style>
+/*base styling for layers*/
+.layers{
+width:100px;
+height:100px;
+background-color:#3498db;
+border-radius:10px;
+position:absolute;
+top:50%;
+left:50%
+transform:translate(-50%,-50%);
+animation:bounce 2s infinite alternate;
+}
+/*animation keyframes*/
+@keyframes bounce{
+0%{transform:translate(-50%,-50%)scale(1);}
+100%{transform:translate(-50%,-50%)scale(1.2);}
+}
+</style>
+</head>
+<body>
+<!--layer with animation-->
+<div class="layers"></div>
+</body>
+</html>
+

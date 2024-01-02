@@ -1,0 +1,6 @@
+<html>
+<head>
+<script type ="text/javascript">
+var d =new date();
+var weekday=new
+array("sunday",monday","tuesday","wed","thu","fri"

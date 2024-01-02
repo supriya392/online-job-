@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<title>registration form</title>
+<script type="text/javascript">
+function calc()
+{
+var m1,m2,m3,avg=0,total=0,result="",grade="";
+m1 = parseInt(document.form1.wp.value);
+m2 = parseInt(document.form1.sp.value);
+m3 = parseInt(document.form1.cg.value);
+total = m1+m2+m3;
+avg = total/3;
+if(m1<35||m2<35||m3<35)
+{
+result = "fail";
+grade ="D";
+}
+else if(avg>=75)
+{
+result = "distinction";
+grade = "A+";
+}
+else if(avg>=60&&avg<75)
+{
+result = "first class";
+grade = "A";
+}
+else if(avg>=50&&avg<60)
+{
+result = "second class";
+grade = "B";
+}
+else if(avg>=35&&avg<50)
+{
+result="pass class";
+grade="c";
+}
+else if(avg<35)
+{
+result = "fail";
+grade = "D";
+}
+document.form1.result.value=result;
+document.form1.grade.value=grade;
+document.form1.total.value=total;
+document.form1.avg.value=avg;
+}
+</script>
+</head>
+<body>
+<form name="form1">
+<table border="1">
+<tr>
+<td>student name</td>
+<td><input type="text"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center">subject marks</td>
+</tr>
+<tr>
+<td>web programming</td>
+<td><input type="text"name="wp"/></td>
+</tr>
+<tr>
+<td>computer graphics</td>
+<td><input type="text"name="cg"/></td>
+</tr>
+<tr>
+<td>system programming</td>
+<td><input type="text"name="sp"/></td>
+</tr>
+<td colspan="2" align="center"><input type="button"onclick="calc()"value="calucate"/></td>
+</tr>
+<tr>
+<td>total</td>
+<td><input type="text"name="total"/></td>
+</tr>
+<tr>
+<td>avg</td>
+<td><input type="text"name="avg"/></td>
+</tr>
+<tr>
+<td>web result</td>
+<td><input type="text"name="result"/></td>
+</tr>
+<tr>
+<td>grade</td>
+<td><input type="text"name="grade"/></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
